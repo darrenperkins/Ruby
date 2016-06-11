@@ -1,0 +1,19 @@
+
+items = ["Armenia", "Belgium", "Croatia", "Denmark", "El Salvador" ]
+$items_to_position = nil;
+
+
+def my_transform(items)
+    items = items.each_with_index.to_a
+    items_to_position = Hash[items]
+    puts $items_to_position
+    return $items_to_position
+end
+
+if my_transform(items) == $items_to_position
+    puts "True"
+else puts "False"
+end    
+
+
+$end
