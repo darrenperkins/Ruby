@@ -1,4 +1,4 @@
-# Sort Ruby Array Alphabetically and Convert to Hash
+# Sort Ruby Array and Convert to Hash
 
 Write a function (named my_transform) which is capable of transforming the described input to the output. The program should be independent of the specifics of this example meaning that given a completely new set of input, the output would still be created correctly.
 
